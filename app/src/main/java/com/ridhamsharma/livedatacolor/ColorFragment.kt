@@ -81,7 +81,7 @@ class ColorFragment : Fragment() {
                 binding.btnClear.setOnClickListener {
                     var num = 0
                     binding.tvInsertNumberFragment.setText(num.toString())
-                    colorViewModel.reset.value = num
+                    colorViewModel.number.value = num
 
                 }
 

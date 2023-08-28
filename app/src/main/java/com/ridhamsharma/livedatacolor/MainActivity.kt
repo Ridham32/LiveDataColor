@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             colorViewModel.number.value = number
         }
 
-        colorViewModel.reset.observe(this){
+        colorViewModel.number.observe(this){
             binding.tvInsertNumber.setText(it.toString())
         }
 

@@ -6,6 +6,5 @@ import androidx.lifecycle.ViewModel
 class ColorViewModel: ViewModel() {
     var number : MutableLiveData<Int> = MutableLiveData(0)
     var color : MutableLiveData<Int> = MutableLiveData(0)
-    var reset : MutableLiveData<Int> = MutableLiveData(0)
 
 }
